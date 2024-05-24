@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.horizontal-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.social-icons li a  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     width:30px; 
+     height:30px; 
+     background-color: rgb(255, 255, 255);
+     text-decoration: none;
+
+}
+
+.social-icons li a:hover  {
+  
+    background-color: gray;
+}
